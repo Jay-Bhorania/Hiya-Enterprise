@@ -5313,7 +5313,7 @@ textarea.form-control-lg {
   width: 100%;
   color: var(--bs-modal-color);
   pointer-events: auto;
-  background-color: var(--bs-modal-bg);
+  background-color: #212529 !important;
   background-clip: padding-box;
   border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
   border-radius: var(--bs-modal-border-radius);
@@ -8094,6 +8094,10 @@ textarea.form-control-lg {
   color: #6c757d !important;
 }
 
+.font-size12 {
+  font-size: 1.2rem;
+}
+
 .text-black-50 {
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
@@ -10846,7 +10850,7 @@ p {
   margin-bottom: 1rem;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11006,7 +11010,6 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11042,7 +11045,7 @@ header.masthead .masthead-heading {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
+  margin: 1.2rem;
   max-width: 100vw;
 }
 .portfolio-modal .modal-content {
@@ -11175,6 +11178,7 @@ header.masthead .masthead-heading {
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 768px) {
@@ -11365,6 +11369,33 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   flex-shrink: 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2a7f62; 
+}
+
+.card-description {
+  font-size: 1.2rem;
+  color: #ccc;         
+}
+
+.group-card {
+  margin-right: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  max-width: 400px;
+  height: 250px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
 }
 
 .card img {
